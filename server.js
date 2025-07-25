@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -18,3 +19,6 @@ mongoose.connect(process.env.DB_URL).then((result) => {
 app.listen(PORT, () => {
     console.log(`Server started at port: ${PORT}`);
 })
+=======
+
+>>>>>>> 4887e2d3dc1cfb159ebd255937db44b4885f47cb
